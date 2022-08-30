@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lorem Generator</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="index.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+	<main>
+
+		<h1><a href="index.html">LOREM IPSUM DOLOR</a></h1>
+
+		<div class="classicflex">
+			<h2><a href = "aboutlorem.html">about lorem</a></h2>
+			<h2><a href = "aboutsite.html">about site</a></h2>
+		</div>
+
+		<hr>
+		<form class="lorem-form">
+			<label for="amount">
+				<h6>Enter Number of Paragraphs: </h6>
+			</label>
+			<center>
+				<div class="centeriser">
+					<input type="number" name="amount" id="amount" autocomplete="off">
+				</div>
+
+				<div>
+					<button type="submit" class="btn">Generate</button>
+					<button type="randomiser" class="randbtn">Random</button>
+
+					<div class="tooltip">
+						<button onmouseover="myFunction()" onclick="disp()">
+							<span class="tooltiptext" id="myTooltip"></span>
+							Copy
+						</button>
+					</div>
+
+					<button type="clrscrn" id="clrscrnbtn">Clear</button>
+					<br>
+					<br>
+
+				</div>
+			</center>
+		</form>
+
+		<article class="lorem-text">
+			<p class="lorem"></p>
+		</article>
+	</main>
+</body>
+
+</html>
